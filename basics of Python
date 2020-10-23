@@ -1,0 +1,40 @@
+PYTHON:  Python is a general-purpose programming language. It is high-level language(closer to human).
+
+Pros of using python:
+1. Interpreted
+2. Simple
+3. Easy to understand
+4. Object oriented
+5. Used in almost every field.
+6. User Friendly syntax.
+
+Variables In Python: How variables are assigned, and some basic operations that can be performed on the variable.
+
+Variable assignment
+>>> x=5
+>>> x
+ 5
+
+Sum of number with a variables
+>>> x+2 
+ 7
+ 
+Subtraction of a number from a variables
+>>> x-2 
+3
+
+Multiplication of a number with a variables
+>>> x*2 
+ 10
+ 
+ Exponentiation of a variable
+>>> x**2 
+ 25
+ 
+Remainder of a variable 
+>>> x%2 
+ 1
+ 
+ Division of a variable
+>>> x/float(2) 
+2.5
