@@ -1,0 +1,247 @@
+QUESTION 1 SOLUTION
+balance=50000
+limit=30000
+while(True):
+    x=int(input("Enter amount: "))
+    if x>balance or x>=limit:
+        print("sorry you dont have that much amount: ")
+    elif x>limit:
+        print("sorry you have only 30000 limit: ")
+    elif balance<5000:
+        tax=(balance/100)*2
+        balance-=tax
+        print("2% tax has been deducted from your account: ")
+        print(f"You have {balance} remaining in your account: ")
+    elif balance>=5000:
+        print("no tax deducted")
+        balance-=x
+        print("Remaining balance = ",balance)
+        break
+#print("Remaining balance = ",balance)
+===========================================================================================================================
+
+
+
+
+
+
+
+QUESTION 2 SOLUTION
+count=0
+x=int(input("Enter numbers: "))
+while x != 0:
+    x//=10
+    count+=1
+print("total numbers: ",count)
+===========================================================================================================================
+
+
+
+
+
+
+
+
+QUESTION 3 SOLUTION
+x=int(input("Enter item price: "))
+y=int(input("Enter item quantity: "))
+bill=x*y
+print("your total bill = ",bill)
+if bill>500:
+    disc=int(bill/100)*10
+    print(f"You received discount of {disc}")
+    print(f"Pay {bill-disc} only")
+===========================================================================================================================
+
+First read questions from pdf file and try to solve it by yourself. Solution is also uploaded in case of help.
+
+
+
+
+
+QUESTION 4 SOLUTION
+cost=int(input("Enter cost of buying: "))
+sell=int(input("Enter cost of selling: "))
+if cost>sell:
+    print("you are in loss of ",cost-sell)
+elif cost<sell:
+    print("you are in profit of ",sell-cost)
+elif cost==sell:
+    print("no profit or loss ")
+===========================================================================================================================
+
+
+
+
+
+QUESTION 5 SOLUTION
+days=int(input("Enter days: "))
+if days>0 and days<=5:
+    print("50 rupees fine")
+elif days>5 and days<=10:
+    print("100 rupees fine")
+elif days>10 and days<=30:
+    print("150 rupees fine")
+elif days>30:
+    print("Membership cancelled")
+===========================================================================================================================
+
+
+
+QUESTION 6 SOLUTION
+x=int(input("Enter a num: "))
+fact=1
+if x<0:
+    print("Enter a positive integar")
+elif x==0:
+    print("factorial of 0 is 1")
+else:
+    for i in range(1,x+1):
+        fact *= i
+    print(f"factorial of {x} is {fact}")
+===========================================================================================================================
+
+
+
+
+
+
+
+
+QUESTION 7 SOLUTION
+x=int(input("Enter fibonacci series number: "))
+n1,n2 =0,1
+count=0
+if x<=0:
+    print("Enter a positive integar nigga: ")
+elif x==1:
+    print("Fibonacci series upto ",x)
+else:
+    print("Fibonacci series: ")
+    while count<x:
+        print(n1)
+        nth=n1+n2
+        #updating values
+        n1=n2
+        n2=nth
+        count+=1
+===========================================================================================================================
+
+
+
+
+
+
+
+
+
+QUESTION 8 SOLUTION
+for x in range(2,9):
+    for y in range(1,8):
+        if y==x:
+            break
+        else:
+            print(y,end=" ")
+    for z in range(8,1,-1):
+        if z==x:
+            break
+        else:
+            print(end="*")
+    print()
+=========================================================================================================================== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+QUESTION 9 SOLUTION
+star="*****"
+x=int(input("Enter a number for printing times of stars: "))
+for i in range(x):
+    print(star,end="\n")
+===========================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+QUESTION 10 SOLUTION
+import numpy as np
+x=np.arange(10)
+for i in range(10):
+    y=input(f" enter marks of student {i+1}: ")
+    x[i]=y
+print("==============================")
+mx=0
+mn = 100
+ag=0
+for j in range(len(x)):
+        if x[j] > mx:
+            ag += x[j]
+            mx = x[j]
+        elif x[j] < mn:
+            ag += x[j]
+            mn = x[j]
+            
+print(f"max = {mx}")
+print(f"min = {mn}")
+print(f"avg = {ag/10}")
+===========================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+QUESTION 11 SOLUTION
+import numpy as np
+firstArray=np.array([0 for i in range(5)])
+length=len(firstArray)
+
+for i in range(length):
+    firstArray[i]=i+1
+for j in(firstArray):
+    print(firstArray)
+
+
+===========================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+QUESTION 12 SOLUTION
+N = int(input("How Many Players Name You Want To Enter: "))
+names=np.array([' ' for i in range(N)],dtype=object)
+for j in range(len(names)):
+    print()
+    names[j]=input(f"Enter {j+1} Player Name: ")
+print("=========OUTPUT=========")
+for k in(names):
+    print(k,end=" ")
+
+
