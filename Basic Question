@@ -1,0 +1,20 @@
+QUESTION:1
+Are terminators necessary in Python?
+Ans: No
+
+QUESTION:2
+What Python libraries do data scientists use the most?
+
+
+QUESTION:3
+Is python indent dependent?
+Ans: yes
+
+QUESTION:4
+Is python open source language?
+ans: Yes
+
+QUESTION:5
+what keyword is used for making a function in Python?
+Answer: Functions start with "def" and the function name afterwards along with parenthesis "()" and colon ":" .
+def function_name():
