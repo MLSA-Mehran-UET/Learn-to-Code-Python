@@ -1,0 +1,13 @@
+a=2
+b=4
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+
+exp=a**b
+print(exp)
+
+flodiv=a//b
+print(flodiv)
