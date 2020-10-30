@@ -1,0 +1,9 @@
+fruit='banana'
+letter1=fruit[1]
+letter2=fruit[0]
+print(letter1)
+print(letter2)
+
+x=3
+w=fruit[x-1]
+print(w)
