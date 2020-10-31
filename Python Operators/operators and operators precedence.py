@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Feb  3 07:11:37 2018
 
-@author: Raza
-"""
 #operator precedence
 #** Exponentiation (raise to the power)
 #~ + - Ccomplement, unary plus and minus (method names for
